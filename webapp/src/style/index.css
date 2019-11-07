@@ -1,0 +1,43 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fafafa;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+.centered {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+div {
+	margin: 1em auto;
+	width: 30em;
+}
+div,
+input {
+	font-family: 'courier';
+}
+.lenny {
+	font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+		helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+		segoe ui emoji, segoe ui symbol, noto color emoji;
+}
+.ascii {
+	font-family: 'Courier New', Courier, monospace;
+}

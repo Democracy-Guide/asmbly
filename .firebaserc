@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "asmbly-control"
+  },
+  "targets": {
+    "asmbly-control": {
+      "hosting": {
+        "prime": [
+          "asmbly-prime"
+        ]
+      }
+    }
+  }
+}
