@@ -1,0 +1,37 @@
+.pnyxPostHead {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0;
+	width: 100%;
+}
+.pnyxPostSummary {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.pnyxPostTitleAuthor {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.pnyxPostDate {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.pnyxPostIcon {
+	font-size: xx-large;
+	margin: 0 0.3em 0 0;
+}
+summary::-webkit-details-marker {
+	display: none;
+}
+.pnyxPostSummary {
+	margin-bottom: 1em;
+}

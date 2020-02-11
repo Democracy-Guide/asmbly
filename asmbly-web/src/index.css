@@ -1,0 +1,46 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	font-family: AmericanTypewriter, FreeMono, monospace;
+	font-weight: 400;
+	color: #333;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+.contain {
+	height: 100%;
+}
+.centered {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.content {
+	min-width: 25.75em;
+	max-width: 32em;
+	margin: 0 auto;
+}
+.pointed {
+	padding: 1em;
+	text-align: center;
+	max-width: 30em;
+	min-width: 24em;
+	margin: 0 auto;
+}
+summary {
+	cursor: pointer;
+}

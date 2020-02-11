@@ -1,12 +1,15 @@
 {
   "projects": {
-    "default": "asmbly-control"
+    "default": "asmbly"
   },
   "targets": {
-    "asmbly-control": {
+    "asmbly": {
       "hosting": {
-        "prime": [
-          "asmbly-prime"
+        "admin": [
+          "asmbly-admin"
+        ],
+        "asmbly": [
+          "asmbly-c18ae"
         ]
       }
     }

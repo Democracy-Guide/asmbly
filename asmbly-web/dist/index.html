@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ASMBLY</title>
+		<link rel="preconnect" href="https://securetoken.googleapis.com" />
+		<link rel="preconnect" href="https://www.googleapis.com" />
+		<meta name="viewport" content="width=device-width, initial-scale=.8" />
+		<meta charset="utf-8" />
+		<style>
+			html,
+			body {
+				height: fit-content;
+				width: 100%;
+				padding: 0;
+				margin: 0;
+				background-color: #fbfbf8;
+				font-family: AmericanTypewriter, FreeMono, monospace;
+				font-weight: 400;
+				color: #333;
+				font-size: 16px;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+
+			input {
+				font-family: AmericanTypewriter, FreeMono, monospace;
+			}
+			pre {
+				font-family: AmericanTypewriter, FreeMono, monospace;
+			}
+
+			textarea {
+				font-family: AmericanTypewriter, FreeMono, monospace;
+			}
+			.ascii {
+				font-family: FreeMono, monospace;
+			}
+
+			.smalltext {
+				padding-top: 0.5em;
+				font-size: 11px;
+			}
+			* {
+				box-sizing: border-box;
+			}
+			.blurred-lenny,
+			.blurred-content {
+			}
+			#app {
+				height: 100%;
+			}
+			.centered {
+				display: flex;
+				justify-content: center;
+				align-content: center;
+			}
+			.column {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.content {
+				max-width: 90%;
+				margin: 0 auto;
+			}
+			.contain {
+				height: 100%;
+				-webkit-transform-style: preserve-3d;
+				transform-style: preserve-3d;
+				-webkit-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-webkit-transform: translateZ(0);
+				transform: translateZ(0);
+			}
+			.pointed {
+				text-align: center;
+			}
+			.rowSpaceBetween {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				margin: 0 0 auto 0;
+				text-align: start;
+			}
+
+			.modal-wrapper {
+				height: 100%;
+				width: 100%;
+			}
+			summary {
+				cursor: pointer;
+				text-align: start;
+			}
+			input[type='submit'] {
+				border-radius: 2px;
+				padding: 0.25em;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app" />
+		<script type="text/babel" src="./src/index.js"></script>
+	<script type="text/javascript" src="/index_bundle.js"></script></body>
+</html>
