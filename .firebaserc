@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "asmbly"
+  },
+  "targets": {
+    "asmbly": {
+      "hosting": {
+        "admin": [
+          "asmbly-admin"
+        ],
+        "asmbly": [
+          "asmbly-c18ae"
+        ]
+      }
+    }
+  }
+}

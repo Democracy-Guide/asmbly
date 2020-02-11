@@ -1,0 +1,85 @@
+{
+	"indexes": [
+		{
+			"collectionGroup": "bema",
+			"queryScope": "COLLECTION",
+			"fields": [
+				{
+					"fieldPath": "pinned",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "host",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "guest",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "parent",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "sorty",
+					"order": "ASCENDING"
+				}
+			]
+		},
+		{
+			"collectionGroup": "bema",
+			"queryScope": "COLLECTION",
+			"fields": [
+				{
+					"fieldPath": "pinned",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "host",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "parent",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "sorty",
+					"order": "ASCENDING"
+				}
+			]
+		},
+		{
+			"collectionGroup": "bema",
+			"queryScope": "COLLECTION",
+			"fields": [
+				{
+					"fieldPath": "pinned",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "parent",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "sorty",
+					"order": "ASCENDING"
+				}
+			]
+		},
+		{
+			"collectionGroup": "reports",
+			"queryScope": "COLLECTION",
+			"fields": [
+				{
+					"fieldPath": "closed",
+					"order": "ASCENDING"
+				},
+				{
+					"fieldPath": "UID",
+					"order": "ASCENDING"
+				}
+			]
+		}
+	],
+	"fieldOverrides": []
+}

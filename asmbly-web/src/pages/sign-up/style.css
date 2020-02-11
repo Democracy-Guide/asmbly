@@ -1,0 +1,18 @@
+.pointed {
+	padding: 1em;
+	text-align: center;
+	max-width: 30em;
+	min-width: 24em;
+	margin: 0 auto;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.nav span {
+	margin: 0 1em;
+}
+.clicky {
+	cursor: pointer;
+}

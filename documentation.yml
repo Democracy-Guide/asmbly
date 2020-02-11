@@ -1,0 +1,12 @@
+toc:
+  - name: api
+    description: |
+      Endpoints for static client to compose content from
+    children:
+      - Personas
+  # - name: ssr
+  #   description: |
+  #     Server side rendering
+  #   children:
+  #     - shortestPath
+  #     - salesman

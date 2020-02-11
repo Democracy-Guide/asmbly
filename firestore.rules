@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+
+  match /databases/{database}/documents {
+    match /DG-ASMBLY/{version}/pnyx-managed/pnyx-prime/reports/{documents=**} {
+      allow read: if request.auth.token.moderator == true;
+      allow write: if false;
+    }
+  	match /DG-ASMBLY/{version}/pnyx-managed/pnyx-prime/bema/{documents=**} {
+      allow read: if request.auth.token.role == 'participant';
+      allow write: if false;
+    }
+  }
+}
