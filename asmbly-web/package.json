@@ -21,10 +21,10 @@
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.16.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "prop-types": "^15.7.2",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
@@ -34,6 +34,6 @@
     "react-markdown": "^4.2.2",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "styled-jsx": "^3.2.4"
+    "styled-jsx": "^5.1.0"
   }
 }
